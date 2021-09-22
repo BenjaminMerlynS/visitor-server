@@ -1,14 +1,14 @@
 Package.describe({
-	name: 'useful:visitor-server',
-	version: '0.0.2',
+	name: 'merlyn:visitor-server',
+	version: '0.0.5',
 	summary: 'Server-side infrastructure for tracking visitors to your site.',
-	git: 'https://github.com/usefulio/visitor-server',
+	git: 'https://github.com/BenjaminMerlynS/visitor-server',
 	documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
 
-	api.versionsFrom('1.1');
+	api.versionsFrom('2.4');
 
 	// ====== BUILT-IN PACKAGES =======
 
